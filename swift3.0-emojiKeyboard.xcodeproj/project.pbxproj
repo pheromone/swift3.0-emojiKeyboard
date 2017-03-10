@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C6E4D3F1E727DCC0007CA9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E4D3E1E727DCC0007CA9D /* AppDelegate.swift */; };
+		6C6E4D411E727DCC0007CA9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E4D401E727DCC0007CA9D /* ViewController.swift */; };
+		6C6E4D441E727DCC0007CA9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E4D421E727DCC0007CA9D /* Main.storyboard */; };
+		6C6E4D461E727DCC0007CA9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E4D451E727DCC0007CA9D /* Assets.xcassets */; };
+		6C6E4D491E727DCC0007CA9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6E4D471E727DCC0007CA9D /* LaunchScreen.storyboard */; };
+		6C6E4D541E727DCC0007CA9D /* swift3_0_emojiKeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E4D531E727DCC0007CA9D /* swift3_0_emojiKeyboardTests.swift */; };
+		6C6E4D5F1E727DCC0007CA9D /* swift3_0_emojiKeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6E4D5E1E727DCC0007CA9D /* swift3_0_emojiKeyboardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C6E4D501E727DCC0007CA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6E4D331E727DCC0007CA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6E4D3A1E727DCC0007CA9D;
+			remoteInfo = "swift3.0-emojiKeyboard";
+		};
+		6C6E4D5B1E727DCC0007CA9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6E4D331E727DCC0007CA9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6E4D3A1E727DCC0007CA9D;
+			remoteInfo = "swift3.0-emojiKeyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C6E4D3B1E727DCC0007CA9D /* swift3.0-emojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift3.0-emojiKeyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6E4D3E1E727DCC0007CA9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C6E4D401E727DCC0007CA9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C6E4D431E727DCC0007CA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C6E4D451E727DCC0007CA9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C6E4D481E727DCC0007CA9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C6E4D4A1E727DCC0007CA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6E4D4F1E727DCC0007CA9D /* swift3.0-emojiKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift3.0-emojiKeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6E4D531E727DCC0007CA9D /* swift3_0_emojiKeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3_0_emojiKeyboardTests.swift; sourceTree = "<group>"; };
+		6C6E4D551E727DCC0007CA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6E4D5A1E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift3.0-emojiKeyboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6E4D5E1E727DCC0007CA9D /* swift3_0_emojiKeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift3_0_emojiKeyboardUITests.swift; sourceTree = "<group>"; };
+		6C6E4D601E727DCC0007CA9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6E4D381E727DCC0007CA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D4C1E727DCC0007CA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D571E727DCC0007CA9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6E4D321E727DCC0007CA9D = {
+			isa = PBXGroup;
+			children = (
+				6C6E4D3D1E727DCC0007CA9D /* swift3.0-emojiKeyboard */,
+				6C6E4D521E727DCC0007CA9D /* swift3.0-emojiKeyboardTests */,
+				6C6E4D5D1E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests */,
+				6C6E4D3C1E727DCC0007CA9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6E4D3C1E727DCC0007CA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E4D3B1E727DCC0007CA9D /* swift3.0-emojiKeyboard.app */,
+				6C6E4D4F1E727DCC0007CA9D /* swift3.0-emojiKeyboardTests.xctest */,
+				6C6E4D5A1E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6E4D3D1E727DCC0007CA9D /* swift3.0-emojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E4D3E1E727DCC0007CA9D /* AppDelegate.swift */,
+				6C6E4D401E727DCC0007CA9D /* ViewController.swift */,
+				6C6E4D421E727DCC0007CA9D /* Main.storyboard */,
+				6C6E4D451E727DCC0007CA9D /* Assets.xcassets */,
+				6C6E4D471E727DCC0007CA9D /* LaunchScreen.storyboard */,
+				6C6E4D4A1E727DCC0007CA9D /* Info.plist */,
+			);
+			path = "swift3.0-emojiKeyboard";
+			sourceTree = "<group>";
+		};
+		6C6E4D521E727DCC0007CA9D /* swift3.0-emojiKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E4D531E727DCC0007CA9D /* swift3_0_emojiKeyboardTests.swift */,
+				6C6E4D551E727DCC0007CA9D /* Info.plist */,
+			);
+			path = "swift3.0-emojiKeyboardTests";
+			sourceTree = "<group>";
+		};
+		6C6E4D5D1E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C6E4D5E1E727DCC0007CA9D /* swift3_0_emojiKeyboardUITests.swift */,
+				6C6E4D601E727DCC0007CA9D /* Info.plist */,
+			);
+			path = "swift3.0-emojiKeyboardUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6E4D3A1E727DCC0007CA9D /* swift3.0-emojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6E4D631E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboard" */;
+			buildPhases = (
+				6C6E4D371E727DCC0007CA9D /* Sources */,
+				6C6E4D381E727DCC0007CA9D /* Frameworks */,
+				6C6E4D391E727DCC0007CA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift3.0-emojiKeyboard";
+			productName = "swift3.0-emojiKeyboard";
+			productReference = 6C6E4D3B1E727DCC0007CA9D /* swift3.0-emojiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C6E4D4E1E727DCC0007CA9D /* swift3.0-emojiKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6E4D661E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboardTests" */;
+			buildPhases = (
+				6C6E4D4B1E727DCC0007CA9D /* Sources */,
+				6C6E4D4C1E727DCC0007CA9D /* Frameworks */,
+				6C6E4D4D1E727DCC0007CA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6E4D511E727DCC0007CA9D /* PBXTargetDependency */,
+			);
+			name = "swift3.0-emojiKeyboardTests";
+			productName = "swift3.0-emojiKeyboardTests";
+			productReference = 6C6E4D4F1E727DCC0007CA9D /* swift3.0-emojiKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C6E4D591E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6E4D691E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboardUITests" */;
+			buildPhases = (
+				6C6E4D561E727DCC0007CA9D /* Sources */,
+				6C6E4D571E727DCC0007CA9D /* Frameworks */,
+				6C6E4D581E727DCC0007CA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6E4D5C1E727DCC0007CA9D /* PBXTargetDependency */,
+			);
+			name = "swift3.0-emojiKeyboardUITests";
+			productName = "swift3.0-emojiKeyboardUITests";
+			productReference = 6C6E4D5A1E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6E4D331E727DCC0007CA9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Shaoting Zhou";
+				TargetAttributes = {
+					6C6E4D3A1E727DCC0007CA9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U4629HP3VA;
+						ProvisioningStyle = Automatic;
+					};
+					6C6E4D4E1E727DCC0007CA9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U4629HP3VA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C6E4D3A1E727DCC0007CA9D;
+					};
+					6C6E4D591E727DCC0007CA9D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = U4629HP3VA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C6E4D3A1E727DCC0007CA9D;
+					};
+				};
+			};
+			buildConfigurationList = 6C6E4D361E727DCC0007CA9D /* Build configuration list for PBXProject "swift3.0-emojiKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6E4D321E727DCC0007CA9D;
+			productRefGroup = 6C6E4D3C1E727DCC0007CA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6E4D3A1E727DCC0007CA9D /* swift3.0-emojiKeyboard */,
+				6C6E4D4E1E727DCC0007CA9D /* swift3.0-emojiKeyboardTests */,
+				6C6E4D591E727DCC0007CA9D /* swift3.0-emojiKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6E4D391E727DCC0007CA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6E4D491E727DCC0007CA9D /* LaunchScreen.storyboard in Resources */,
+				6C6E4D461E727DCC0007CA9D /* Assets.xcassets in Resources */,
+				6C6E4D441E727DCC0007CA9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D4D1E727DCC0007CA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D581E727DCC0007CA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6E4D371E727DCC0007CA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6E4D411E727DCC0007CA9D /* ViewController.swift in Sources */,
+				6C6E4D3F1E727DCC0007CA9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D4B1E727DCC0007CA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6E4D541E727DCC0007CA9D /* swift3_0_emojiKeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6E4D561E727DCC0007CA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C6E4D5F1E727DCC0007CA9D /* swift3_0_emojiKeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C6E4D511E727DCC0007CA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6E4D3A1E727DCC0007CA9D /* swift3.0-emojiKeyboard */;
+			targetProxy = 6C6E4D501E727DCC0007CA9D /* PBXContainerItemProxy */;
+		};
+		6C6E4D5C1E727DCC0007CA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6E4D3A1E727DCC0007CA9D /* swift3.0-emojiKeyboard */;
+			targetProxy = 6C6E4D5B1E727DCC0007CA9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C6E4D421E727DCC0007CA9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6E4D431E727DCC0007CA9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C6E4D471E727DCC0007CA9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C6E4D481E727DCC0007CA9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C6E4D611E727DCC0007CA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C6E4D621E727DCC0007CA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6E4D641E727DCC0007CA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C6E4D651E727DCC0007CA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C6E4D671E727DCC0007CA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.0-emojiKeyboard.app/swift3.0-emojiKeyboard";
+			};
+			name = Debug;
+		};
+		6C6E4D681E727DCC0007CA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboardTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift3.0-emojiKeyboard.app/swift3.0-emojiKeyboard";
+			};
+			name = Release;
+		};
+		6C6E4D6A1E727DCC0007CA9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift3.0-emojiKeyboard";
+			};
+			name = Debug;
+		};
+		6C6E4D6B1E727DCC0007CA9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = U4629HP3VA;
+				INFOPLIST_FILE = "swift3.0-emojiKeyboardUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MVC.swift3-0-emojiKeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "swift3.0-emojiKeyboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6E4D361E727DCC0007CA9D /* Build configuration list for PBXProject "swift3.0-emojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6E4D611E727DCC0007CA9D /* Debug */,
+				6C6E4D621E727DCC0007CA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6E4D631E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6E4D641E727DCC0007CA9D /* Debug */,
+				6C6E4D651E727DCC0007CA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C6E4D661E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6E4D671E727DCC0007CA9D /* Debug */,
+				6C6E4D681E727DCC0007CA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C6E4D691E727DCC0007CA9D /* Build configuration list for PBXNativeTarget "swift3.0-emojiKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6E4D6A1E727DCC0007CA9D /* Debug */,
+				6C6E4D6B1E727DCC0007CA9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6E4D331E727DCC0007CA9D /* Project object */;
+}
