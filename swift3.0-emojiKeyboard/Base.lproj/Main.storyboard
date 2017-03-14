@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="swift3_0_emojiKeyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,58 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="我是TextView" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LP5-dc-G1f" userLabel="TextView">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="1" green="0.96584642899999995" blue="0.30237768100000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9B-Sr-xvM">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dEj-vj-0qO"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="系统键盘" id="fcM-D6-LXw">
+                                        <connections>
+                                            <action selector="textKeyboardAction:" destination="BYZ-38-t0r" id="6QY-9P-HWa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sqh-uq-rEe"/>
+                                    <barButtonItem title="自定义键盘" id="I77-Ge-Igk">
+                                        <connections>
+                                            <action selector="emojiKeyboardAction:" destination="BYZ-38-t0r" id="7aA-AC-og1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="6nN-1c-LKq"/>
+                                    <barButtonItem title="发送" id="Ove-W6-XdW">
+                                        <connections>
+                                            <action selector="sendAcrion:" destination="BYZ-38-t0r" id="Z1f-wh-XGy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LP5-dc-G1f" secondAttribute="bottom" id="ChR-XV-SV8"/>
+                            <constraint firstItem="T9B-Sr-xvM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Dm0-dL-3ja"/>
+                            <constraint firstItem="LP5-dc-G1f" firstAttribute="top" secondItem="T9B-Sr-xvM" secondAttribute="bottom" id="Hyc-w3-fou"/>
+                            <constraint firstItem="LP5-dc-G1f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fOC-Fi-BxV"/>
+                            <constraint firstItem="T9B-Sr-xvM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="fRC-hg-tDa"/>
+                            <constraint firstAttribute="trailing" secondItem="T9B-Sr-xvM" secondAttribute="trailing" id="qrb-QE-SKa"/>
+                            <constraint firstAttribute="trailing" secondItem="LP5-dc-G1f" secondAttribute="trailing" id="zA8-7S-SZO"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="customTextView" destination="LP5-dc-G1f" id="78A-H6-3jy"/>
+                        <outlet property="toolBar" destination="T9B-Sr-xvM" id="wXj-dh-wBz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="102.99850074962519"/>
         </scene>
     </scenes>
 </document>
