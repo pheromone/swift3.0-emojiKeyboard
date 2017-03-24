@@ -9,10 +9,19 @@
 import UIKit
 
 class EmojiModel: NSObject {
-    var code:String?   //plist中的code
+    var code:String? {   //plist中的code
+        didSet{
+            //1.从字符串中取出十六进制的数
+            //创建一个扫描器,扫描器可以从字符串中提取数据
+            let sanner =  Scanner.init(string: code!)
+            //2.将十六进制转为字符串
+            var result:UInt32 = 0
+            sanner.scanHexInt32(&result)
+            //3.将十六进制转换为emoji字符串
+            emojiStr = "\(Character.init(UnicodeScalar.init(result)!))"
+        }
+    }
     var emojiStr:String?   //emoji表情字符串
-    
-    
     class func loadEmoji(OK:([EmojiModel]) -> ()){
         //1找到emoji.plist的路径
         let path  = Bundle.main.path(forResource: "emoji.plist", ofType: nil)
@@ -36,21 +45,14 @@ class EmojiModel: NSObject {
     
     init(dict:[String:AnyObject]) {
         super.init()
-        code = dict["code"] as! String?
-        //1.从字符串中取出十六进制的数
-        //创建一个扫描器,扫描器可以从字符串中提取数据
-        let sanner =  Scanner.init(string: code!)
-        //2.将十六进制转为字符串
-        var result:UInt32 = 0
-        sanner.scanHexInt32(&result)
-        //3.将十六进制转换为emoji字符串
-        emojiStr = "\(Character.init(UnicodeScalar.init(result)!))"
-        
-        
+        setValuesForKeys(dict)
     }
-    
-    //防止key不一致崩溃
     override func setValue(_ value: Any?, forKey key: String) {
         super.setValue(value, forKey: key)
+    }
+    
+    //防止崩溃
+    override func setValue(_ value: Any?, forUndefinedKey key: String) {
+        
     }
 }

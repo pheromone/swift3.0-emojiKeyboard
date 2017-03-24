@@ -26,8 +26,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         //1.将键盘控制器添加为当前控制器的子控制器
-//        addChildViewController(emojiVC)
-        addChildViewController(gilrsVC)
+        addChildViewController(emojiVC)
+//        addChildViewController(gilrsVC)
         //2.默认文字键盘
         customTextView.inputView = nil
         customTextView.keyboardType = .numberPad
@@ -53,8 +53,8 @@ class ViewController: UIViewController {
         //1.关闭键盘
         customTextView.resignFirstResponder()
         //2.唤起自定义键盘
-//        customTextView.inputView = emojiVC.view
-        customTextView.inputView = gilrsVC.view
+        customTextView.inputView = emojiVC.view
+//        customTextView.inputView = gilrsVC.view
         //唤起键盘
         customTextView.becomeFirstResponder()
     }
